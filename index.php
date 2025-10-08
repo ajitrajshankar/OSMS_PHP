@@ -86,9 +86,11 @@
 </head>
 <body>
 <script>
-       window.onload = function() {
-         alert('Welcome to OSMS - Online Service Management System!');
+  /*
+   window.onload = function() {
+    alert('Welcome to OSMS - Online Service Management System!');
      }
+     */
 </script>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
@@ -172,7 +174,7 @@
     <h2 class="section-title text-center">Contact Us</h2>
     <div class="row">
       <div class="col-md-8">
-        <?php include('ContactForm.php'); ?>
+        <?php include('contactform.php'); ?>
       </div>
       <div class="col-md-4">
         <h5>Head Office</h5>
